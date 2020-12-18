@@ -28,6 +28,7 @@ def search_by_title():
             print(b)
     if any_output is False:
         print("nothing found")
+        
 # Search by author function
 def search_by_author():
     author = input("Enter an author's name: ")
